@@ -14,7 +14,6 @@ export async function handler(): Promise<any> {
         });
         axiosClient.interceptors.request.use(interceptor);
 
-3
         const url = process.env.API_URL as string;
         const endpoint = url + 'test';
 
