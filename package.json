@@ -1,0 +1,31 @@
+{
+  "name": "aws4-axios-test",
+  "version": "0.1.0",
+  "bin": {
+    "test": "bin/aws4-axios-test.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.115",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.14.6",
+    "aws-cdk": "2.74.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "~4.9.5"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.74.0",
+    "aws-lambda": "^1.0.7",
+    "aws4-axios": "^3.1.1",
+    "axios": "^1.4.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}
